@@ -1,0 +1,18 @@
+--- #YAML:1.0
+name: URI-Find-Simple
+version: 0.7
+author:
+  - ! >-
+    Copyright (c) 2004 Tom Insam <tom@jerakeen.org> inspired by Paul Mison
+    <paul@husk.org>
+abstract: a simple interface to URI::Find
+license: perl
+requires:
+  Test::More: 0
+  URI::Find: 0
+  perl: 5.6.0
+provides:
+  URI::Find::Simple:
+    file: lib/URI/Find/Simple.pm
+    version: 0.7
+generated_by: Module::Build version 0.24
