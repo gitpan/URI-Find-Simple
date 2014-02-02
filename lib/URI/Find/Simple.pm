@@ -1,6 +1,7 @@
 package URI::Find::Simple;
 use warnings;
 use strict;
+use 5.006;
 
 use URI::Find;
 use Carp qw(croak);
@@ -10,7 +11,7 @@ use Encode qw( encode );
 our @ISA = qw( Exporter );
 our @EXPORT_OK = qw( list_uris change_uris );
 
-our $VERSION = 1.03;
+our $VERSION = 1.04;
 
 our $CHARSET = "utf-8";
 
@@ -100,11 +101,22 @@ will be converted to the string 'http://jerakeen.org'.
 
 =head1 SEE ALSO
 
-L<URI::Find>, L<URI::Find::Iterator>, L<URI>
+L<URI::Find>, L<URI::Find::Iterator>, L<URI>.
+
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/URI-Find-Simple>
 
 =head1 AUTHOR
 
-Copyright (c) 2004 Tom Insam <tom@jerakeen.org> inspired by Paul Mison <paul@husk.org>
+Tom Insam E<lt>tom@jerakeen.orgE<gt>
+inspired by Paul Mison E<lt>paul@husk.orgE<gt>
+
+This module is now maintained by Neil Bowers E<lt>neilb@cpan.orgE<gt>.
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2004 Tom Insam E<lt>tom@jerakeen.orgE<gt>.
 
 This program is free software; you can redistribute it
 and/or modify it under the same terms as Perl itself.
