@@ -27,4 +27,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/neilbowers/URI-Find-Simple.git
-version: 1.04
+version: 1.05
